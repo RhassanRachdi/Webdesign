@@ -1,0 +1,99 @@
+p {
+  font-family: Roboto;
+}
+.sub {
+  background-color: #cc1a00;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+.sub:hover {
+  opacity: 0.8;
+}
+.sub:active {
+  opacity: 0.5;
+}
+.join {
+  background-color: white;
+  border-color: #4c84de;
+  border-style: solid;
+  border-width: 1px;
+  color: #4c84de;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.join:hover {
+  background-color: #4c84de;
+  color: white;
+}
+.join:active {
+  opacity: 0.8;
+}
+.tweet {
+  background-color: #319bf0;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+}
+.tweet:hover {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.video-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 4px;
+  width: 350px;
+  line-height: 30px;
+}
+.description-text {
+  width: 300px;
+  opacity: 0.7;
+  line-height: 20px;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 350px;
+}
+.stats-text {
+  width: 300px;
+  opacity: 0.7;
+  line-height: 20px;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.channel-name-w {
+  width: 300px;
+  opacity: 0.7;
+  line-height: 30px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.channel-name-wo:hover {
+  opacity: 0.9;
+  text-decoration: underline;
+}
